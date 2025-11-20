@@ -350,3 +350,11 @@ Subtraction:
 
 **Course Navigation:**  
 ← Previous: [Chapter 5 - Number System Conversions](../ch5_conversions/) | Next: [Chapter 7 - Signed Numbers](../ch7_signed_magnitude/) →
+
+---
+
+## Authorship
+Authored by Maxwell Hauser on November 19, 2025
+
+## License
+MIT License
