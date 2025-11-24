@@ -25,14 +25,6 @@ Complements allow us to:
 
 #### Definition
 The one's complement of a binary number is obtained by flipping all bits (0→1, 1→0).
-
-#### How to Find One's Complement
-**Method:** Invert every bit
-```
-Original:        10110100
-One's Complement: 01001011
-```
-
 #### Properties
 - **Two representations of zero:** +0 (00000000) and -0 (11111111)
 - **Range (n bits):** -(2^(n-1) - 1) to +(2^(n-1) - 1)
@@ -49,24 +41,15 @@ One's Complement: 01001011
 -0:  11111111  (problem: two zeros!)
 ```
 
-### Two's Complement (2's Complement)
-
-#### Definition
-The two's complement is obtained by:
-1. Finding the one's complement (flip all bits)
 2. Adding 1 to the result
-
 **Formula:** Two's Complement = One's Complement + 1
 
 #### How to Find Two's Complement
 
-**Method 1: Flip and Add 1**
 ```
 Original:          10110100
-One's Complement:  01001011
-Add 1:           +        1
 Two's Complement:  01001100
-```
+<!-- License moved to dedicated LICENSE file -->
 
 **Method 2: Copy from Right Until First 1, Then Flip**
 ```
